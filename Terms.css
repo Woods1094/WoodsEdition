@@ -1,0 +1,118 @@
+
+/*
+File Name: Terms.css
+Date: 7/13/24
+Terms & Condition stylesheet
+*/
+
+/*Header Nav */
+.header {
+  overflow: hidden;
+
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+/* Body Content */
+
+body
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+body a{
+  text-decoration: none;
+  color: #717171;
+}
+h1+h1, h1+h2, h1+h3, h2+h1, h2+h2, h2+h3, h3+h1, h3+h2, h3+h3 {
+    margin-top: 15px;
+}
+/* Footer Style */
+footer {
+  display: block;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  font-family: proxima-nova;
+  font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    background-color: black;
+    width: 100%;
+
+}
+
+footer a {
+  text-align: center;
+  font-family: freight-sans-pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: .22em;
+  line-height: 2.1em;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-decoration: none;
+  color: white;
+}
+ a:hover{
+  color: gold;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#Footernav {
+  text-align: center;
+  font-family: freight-sans-pro;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: .22em;
+    line-height: 2.1em;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: black;
+}
+#Footernav a {
+  color: white;
+  text-decoration: none;
+}
+.header a:hover {
+  color: gold;
+}
+#Footernav a:hover {
+  color: gold;
+}

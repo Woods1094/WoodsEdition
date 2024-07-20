@@ -1,0 +1,190 @@
+<!--
+Filename: index.html
+Date: 7/14/24
+Woods Edition: Home Page
+--->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Woods E.Edition</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Files/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
+    <a href="index.html">
+    <img id="WoodsLogo"src="Files/woodslogo copy.png" width="150px" height="90px"alt="">
+    </a>
+  </head>
+  <body>
+    <!-- Simulate a smartphone / tablet look -->
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="Bookform.html" class="active">Book Now</a>
+      <div id="myLinks">
+        <a href="#news">About</a>
+        <a href="#contact">Services</a>
+        <a href="#about">Store</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="Images/NightLife copy.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Images/blackwhite.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Images/Health Jobs Justice copy.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Images/WoodsHeader copy.JPG" style="width:100%">
+
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// Get the button:
+let mybutton = document.getElementById("scroll2top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#">
+      <img src="Images/Art.JPG" alt="Mountains" style="width:100%">
+    </a>
+      <figcaption>Art</figcaption>
+      <div class="sub-heading">
+        <p>Inspire to create.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#">
+      <img src="Images/Portraits.JPG" alt="Lights" style="width:100%">
+      </a>
+      <figcaption>Portraits</figcaption>
+      <div class="sub-heading">
+        <p>Delivering a portfolio of diverse creative works across multiple generations.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#">
+      <img src="Images/Politics.jpg" alt="Nature" style="width:100%">
+      </a>
+      <figcaption>Politics</figcaption>
+      <div class="sub-heading">
+        <p>Get inspired on what your community needs.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#">
+      <img src="Images/Community 1 copy.jpg" alt="Mountains" style="width:100%">
+      </a>
+      <figcaption>Community Events</figcaption>
+      <div class="sub-heading">
+        <p>Serving the greater communities.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="Footernav">
+  <a href="#news">About</a>
+  <a href="#contact">Services</a>
+  <a href="#about">Store</a>
+</div>
+<footer id="site-footer">
+  <p>All images &copy; Woods E.Edition, LLC 2024 | All Rights Reserved.</p>
+    <a href="Policy.html">Private Policy</a>
+    <a href="Terms.html">Terms & Conditions</a>
+  <div class="wrap-content">
+    <img src="Files/RoyalW.png" onclick="topFunction()" id="scroll2top" title="Go to top"width="31%">
+  </div>
+</footer>
+  </body>
+
+
+</html>

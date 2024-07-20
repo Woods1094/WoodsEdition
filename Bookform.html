@@ -1,0 +1,223 @@
+<!----
+Filename: Bookform.html
+Date: 7/14/24
+Woods Edition Booking Form
+---->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Book a shoot</title>
+    <link rel="stylesheet" href="Book.css">
+    <link rel="icon" href="Files/favicon (1).ico" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Simulate a smartphone / tablet look -->
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="header">
+      <a class="active" href="index.html">
+  <img id="WoodsLogo"src="Files/WoodsLogo.png" width="150px" height="90px"alt=""></a>
+  <div class="header-right">
+    <a href="#about">About</a>
+    <a href="#contact">Services</a>
+    <a href="#contact">Store</a>
+  </div>
+</div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+    <script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+
+<form action="mailto:woodseedition@gmail.com" target="_blank" method="post">
+  <fieldset id="name-yui_3_17_2_1_1559790057407_113466" class="form-item fields name required">
+
+          <legend class="name">
+            Name
+
+              <span class="required" aria-hidden="true">(required)</span>
+
+          </legend>
+
+
+              <div class="field first-name">
+                <label class="caption">
+                  <input
+                      class="field-element field-control"
+                      name="fname"
+                      x-autocompletetype="given-name"
+                      type="text"
+                      spellcheck="false"
+                      maxlength="30"
+                      data-title="First"
+                      aria-required="true"
+                  />
+                  <span class="caption-text">First Name</span>
+                </label>
+              </div>
+              <div class="field last-name">
+                <label class="caption">
+                  <input
+                      class="field-element field-control"
+                      name="lname"
+                      x-autocompletetype="surname"
+                      type="text"
+                      spellcheck="false"
+                      maxlength="30"
+                      data-title="Last"
+                      aria-required="true"
+                  />
+                  <span class="caption-text">Last Name</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div id="email-yui_3_17_2_1_1559790057407_113467" class="form-item field email required">
+
+          <label class="title">
+            Email
+
+              <span class="required" aria-hidden="true">(required)</span>
+
+          </label>
+
+
+              <input>
+              </<input type="text" name="" value="">
+            </div>
+
+
+            <fieldset id="phone-yui_3_17_2_1_1559790057407_126405" class="form-item fields phone required">
+
+          <legend class="phone">
+            Phone
+
+              <span class="required" aria-hidden="true">(required)</span>
+
+          </legend>
+
+
+
+              <div class="field text three-digits">
+                <label class="caption">
+                  <input
+                    class="field-element"
+                    x-autocompletetype="phone-area-code"
+                    type="text"
+                    maxlength="3"
+                    data-title="Areacode"
+                    aria-required="true"
+                  />
+                  <span class="caption-text">(###)</span>
+                </label>
+              </div>
+              <div class="field text three-digits">
+                <label class="caption">
+                  <input
+                    class="field-element"
+                    x-autocompletetype="phone-local-prefix"
+                    type="text"
+                    maxlength="3"
+                    data-title="Prefix"
+                    aria-required="true"
+                  />
+                  <span class="caption-text">###</span>
+                </label>
+              </div>
+              <div class="field text four-digits">
+                <label class="caption">
+                  <input
+                    class="field-element"
+                    x-autocompletetype="phone-local-suffix"
+                    type="text"
+                    maxlength="4"
+                    data-title="Line"
+                    aria-required="true"
+                  />
+                  <span class="caption-text">####</span>
+                </label>
+              </div>
+            </fieldset>
+
+
+            <fieldset
+                  id="checkbox-yui_3_17_2_1_1559926585747_79617"
+                  class="form-item field checkbox required"
+                  aria-required="true"
+              >
+
+            <legend class="title">
+              Type of Shoot
+
+                <span class="required" aria-hidden="true">(required)</span>
+
+            </legend>
+
+                <div class="description">Check all that apply.</div>
+
+                <div class="option"><label><input type="checkbox" name="checkbox-yui_3_17_2_1_1559926585747_79617-field" value="Business Lifestyle"/> Business Lifestyle</label></div>
+
+                <div class="option"><label><input type="checkbox" name="checkbox-yui_3_17_2_1_1559926585747_79617-field" value="Event"/> Event</label></div>
+
+                <div class="option"><label><input type="checkbox" name="checkbox-yui_3_17_2_1_1559926585747_79617-field" value="Portrait / Headshot"/> Portrait / Headshot</label></div>
+
+                <div class="option"><label><input type="checkbox" name="checkbox-yui_3_17_2_1_1559926585747_79617-field" value="Real Estate"/> Real Estate</label></div>
+
+                <div class="option"><label><input type="checkbox" name="checkbox-yui_3_17_2_1_1559926585747_79617-field" value="Other"/> Other</label></div>
+
+              </fieldset>
+
+
+              <div id="textarea-yui_3_17_2_1_1559790057407_113469" class="form-item field textarea required">
+
+            <label class="title" for="textarea-yui_3_17_2_1_1559790057407_113469-field">
+              Message
+
+                <span class="required" aria-hidden="true">(required)</span>
+
+            </label>
+
+
+                <textarea
+                    class="field-element "
+                    id="textarea-yui_3_17_2_1_1559790057407_113469-field"
+
+                    aria-required="true"
+                ></textarea>
+              </div>
+
+
+      <button class="button"><a href=""><span>Submit </span></button></a>
+
+</form>
+
+<footer id="site-footer">
+  <div id="Footernav">
+    <a href="#news">About</a>
+    <a href="#contact">Services</a>
+    <a href="#about">Store</a>
+  </div>
+  <p>All images &copy; Woods E.Edition, LLC 2024 | All Rights Reserved.</p>
+    <a href="Policy.html">Private Policy</a>
+    <a href="Terms.html">Terms & Conditions</a>
+  <div class="wrap-content">
+    <img src="Files/RoyalW.png" width="31%">
+  </div>
+</footer>
+  </body>
+</html>
