@@ -127,6 +127,37 @@ Woods Edition Art page
       <span class="dot"></span>
     </div>
 
+    <!-- User Choices To Next Page-->
+
+    <!-- The grid: four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="Images/Coverimage1.jpg" alt="Composite Art" width="350" height="250" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/Coverimage2.jpg" alt="Composite Portraits"width="350" height="250" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/Coverimage3.jpg" alt="Space Art" width="350" height="250"onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/Coverimage4.jpg" alt="Nature" width="350" height="250"onclick="myFunction(this);">
+      </div>
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+      <!-- Close the image -->
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
+
+    
     
     <script>
 let slideIndex = 0;
