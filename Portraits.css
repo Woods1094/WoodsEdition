@@ -96,6 +96,20 @@ stylesheet for Portrait Page
   to {opacity: 1}
 }
 
+/*Header Nav */
+.header {
+  overflow: hidden;
+
+  padding: 20px 10px;
+}
+
+
+
+.html-content {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
 /* Body Content */
 
 body
