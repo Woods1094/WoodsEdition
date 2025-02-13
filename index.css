@@ -16,6 +16,14 @@ img {vertical-align: middle;}
     width: 50%;
     height: 75%;
 }
+h3 {
+color: white;
+  font-family:italic;
+  padding: 2px;
+  text-align: center;
+}
+
+
 figcaption {
   color: white;
   font-family:italic;
