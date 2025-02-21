@@ -107,50 +107,10 @@ Woods Edition Art page
     <!-- Header -->
 <div class="header" id="myHeader">
   <h1> Digital Art Grid</h1>
-  <p>Click on the buttons to change the grid view.</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
+  
 </div>
 
-    <!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="/Images/Image1.JPG" style="width:100%">
-    <img src="/Images/Image2.JPG" style="width:100%">
-    <img src="/Images/Image3.jpg" style="width:100%">
-    <img src="/Images/Image4.JPG" style="width:100%">
-    <img src="/Images/nature.jpg" style="width:100%">
-    <img src="/Images/mist.jpg" style="width:100%">
-    <img src="/Images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/Images/underwater.jpg" style="width:100%">
-    <img src="/Images/ocean.jpg" style="width:100%">
-    <img src="/Images/wedding.jpg" style="width:100%">
-    <img src="/Images/mountainskies.jpg" style="width:100%">
-    <img src="/Images/rocks.jpg" style="width:100%">
-    <img src="/Images/underwater.jpg" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="/Images/wedding.jpg" style="width:100%">
-    <img src="/Images/rocks.jpg" style="width:100%">
-    <img src="/Images/falls2.jpg" style="width:100%">
-    <img src="/Images/paris.jpg" style="width:100%">
-    <img src="/Images/nature.jpg" style="width:100%">
-    <img src="/Images/mist.jpg" style="width:100%">
-    <img src="/Images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/Images/underwater.jpg" style="width:100%">
-    <img src="/Images/ocean.jpg" style="width:100%">
-    <img src="/Images/wedding.jpg" style="width:100%">
-    <img src="/Images/mountainskies.jpg" style="width:100%">
-    <img src="/Images/rocks.jpg" style="width:100%">
-    <img src="/Images/underwater.jpg" style="width:100%">
-  </div>
-</div>
-
+ 
     
     <script>
 let slideIndex = 0;
@@ -173,36 +133,6 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-
-      // Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a loop variable
-var i;
-
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
 
 // Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader");
