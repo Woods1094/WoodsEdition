@@ -158,53 +158,7 @@ Woods Edition Art page
     <p>Check out all my latest work below you can enlarge the photo.</p>
     <p>Prints will be avaliable for purchase soon.</p>
 
-    <!-- Trigger the Modal -->
-<img id="myImg" src="Images/Image1.JPG" alt="Explore The Unknown - Star Dome" style="width:100%;max-width:300px">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="closep1">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption1"></div>
-</div>
-
-    <!--Sky Drift Modal -->
-<img id="SkImg" src="Images/Image2.JPG" alt="Explore The Unknown - Drifting Skies" style="width:100%;max-width:300px">
-
-    <!-- The Modal -->
-<div id="SndModal" class="smodal">
-
-  <!-- The Close Button -->
-  <span class="closep2">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="smodal-content" id="img02">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption2"></div>
-</div>
-
-      <!--Night Life Drift Modal -->
-<img id="NTImg" src="Images/NightLife copy.JPG" alt="Night Life At The Carnival" style="width:100%;max-width:300px">
-
-    <!-- The Modal -->
-<div id="nightModal" class="ntmodal">
-
-  <!-- The Close Button -->
-  <span class="closep3">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="ntmodal-content" id="img03">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption3"></div>
-</div>
 
     
     <script>
@@ -277,73 +231,10 @@ for (var i = 0; i < btns.length; i++) {
   expandImg.parentElement.style.display = "block";
 }
 
-    // Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption1");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+    
 
 
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("closep1")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-
-       // Get the modal
-var modal = document.getElementById("SndModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("SkImg");
-var modalImg = document.getElementById("img02");
-var captionText = document.getElementById("caption2");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("closep2")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-       // Get the modal
-var modal = document.getElementById("nightModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("NTImg");
-var modalImg = document.getElementById("img03");
-var captionText = document.getElementById("caption3");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("closep1")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
 </script>
 
 
