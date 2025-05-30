@@ -171,7 +171,7 @@ Woods Edition Art page
   <img class="modal-content" id="img01">
 
   <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+  <div id="caption1"></div>
 </div>
 
     <!--Sky Drift Modal -->
@@ -187,7 +187,7 @@ Woods Edition Art page
   <img class="smodal-content" id="img02">
 
   <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+  <div id="caption2"></div>
 </div>
 
     
@@ -267,23 +267,17 @@ var modal = document.getElementById("myModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+var captionText = document.getElementById("caption1");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("closep1")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -297,19 +291,11 @@ var modal = document.getElementById("SndModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("SkImg");
 var modalImg = document.getElementById("img02");
-var captionText = document.getElementById("caption");
+var captionText = document.getElementById("caption2");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("closep1")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
 }
 
 // Get the <span> element that closes the modal
