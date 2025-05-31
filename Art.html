@@ -174,6 +174,27 @@ Woods Edition Art page
   <div id="caption1"></div>
 </div>
     <script>
+        // Get the First modal
+var modal = document.getElementById("firstModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("1Img");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes modal 1
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+      
 let slideIndex = 0;
 showSlides();
 
@@ -243,26 +264,7 @@ for (var i = 0; i < btns.length; i++) {
   expandImg.parentElement.style.display = "block";
 }
 
-    // Get the First modal
-var modal = document.getElementById("firstModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("1Img");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes modal 1
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+  
 
 
 
