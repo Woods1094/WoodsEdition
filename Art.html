@@ -180,7 +180,7 @@ var modal = document.getElementById("firstModal");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("1Img");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+var captionText = document.getElementById("caption1");
 img.onclick = function(){
   1modal.style.display = "block";
   modalImg.src = this.src;
@@ -188,7 +188,7 @@ img.onclick = function(){
 }
 
 // Get the <span> element that closes modal 1
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close.1")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
