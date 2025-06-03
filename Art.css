@@ -391,6 +391,25 @@ footer a {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
 
 /* Style the Image Used to Trigger the 2ND Modal */
 
@@ -421,7 +440,7 @@ footer a {
 }
 
 /* Modal Content (Image) */
-.modal-content {
+.2modal-content {
   margin: auto;
   display: block;
   width: 80%;
@@ -429,7 +448,7 @@ footer a {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+#caption2 {
   margin: auto;
   display: block;
   width: 80%;
@@ -441,7 +460,7 @@ footer a {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+.2modal-content, #caption2 {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
