@@ -106,47 +106,10 @@ News & Media  page
       <span class="dot"></span>
     </div>
     
-<button onclick="one()">1</button>
-<button onclick="two()">2</button>
-<button onclick="four()">4</button>
     
     <script>
 
-      // Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a "loop" variable
-var i;
-
-// Full-width images
-function one() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "25%";
-  }
-}
     
-    function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-      
-}
 
       let slideIndex = 0;
 showSlides();
@@ -168,43 +131,6 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
     </script>
-
-    <div class="row">
-  <div class="column">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-    <img src="Images/Capital.JPG">
-  </div>
-  <div class="column">
-    <img src="Images/PSLAtlanta.jpg">
-    <img src="Images/PSLAtlanta.jpg">
-    <img src="Images/PSLAtlanta.jpg">
-    <img src="Images/PSLAtlanta.jpg">
-    <img src="Images/PSLAtlanta.jpg">
-    <img src="Images/PSLAtlanta.jpg">
-  </div>
-  <div class="column">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-    <img src="Images/Speak4Justice.JPG">
-  </div>
-  <div class="column">
-    <img src="Images/Power2People.JPG">
-    <img src="Images/Power2People.JPG">
-    <img src="Images/Power2People.JPG">
-    <img src="Images/Power2People.JPG">
-    <img src="Images/Power2People.JPG">
-    <img src="Images/Power2People.JPG">
-  </div>
-</div>
 
     
     <footer id="site-footer">
