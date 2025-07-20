@@ -43,3 +43,29 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+
+
+/* Nav Menu*/
+#navbar {
+   /* Black background color hidden */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color:darkgrey;
+  transform: translate3d(0, -.125rem, 0);
+
+}
