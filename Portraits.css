@@ -266,7 +266,7 @@ h1+h1, h1+h2, h1+h3, h2+h1, h2+h2, h2+h3, h3+h1, h3+h2, h3+h3 {
     line-height: 2em;
     text-transform: uppercase;
 }
-.fashion&appeal {
+.fashion&appealheader {
 
   margin-top: 15px;
     font-family: proxima-nova;
@@ -276,6 +276,8 @@ h1+h1, h1+h2, h1+h3, h2+h1, h2+h2, h2+h3, h3+h1, h3+h2, h3+h3 {
     letter-spacing: .25em;
     line-height: 2em;
     text-transform: uppercase;
+    text-align: center;
+    fontcolor: red;
 }
 /* Footer Style */
 footer {
