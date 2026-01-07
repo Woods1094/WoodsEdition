@@ -266,6 +266,17 @@ h1+h1, h1+h2, h1+h3, h2+h1, h2+h2, h2+h3, h3+h1, h3+h2, h3+h3 {
     line-height: 2em;
     text-transform: uppercase;
 }
+.fashion&appeal {
+
+  margin-top: 15px;
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
 /* Footer Style */
 footer {
   display: block;
