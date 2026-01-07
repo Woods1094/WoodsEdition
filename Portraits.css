@@ -238,6 +238,18 @@ h1 {
   text-align: center;
   white-space: pre-wrap;
 }
+.fashion-content {
+   text-align: center;
+  white-space: pre-wrap;
+  margin-top: 15px;
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
 /* Body Content */
 
 body
