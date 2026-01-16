@@ -404,6 +404,19 @@ footer a {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
+
+.art-content {
+   text-align: center;
+  white-space: pre-wrap;
+  margin-top: 15px;
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
 @keyframes zoom {
   from {transform:scale(0)}
   to {transform:scale(1)}
