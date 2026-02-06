@@ -267,18 +267,17 @@ h1+h1, h1+h2, h1+h3, h2+h1, h2+h2, h2+h3, h3+h1, h3+h2, h3+h3 {
     text-transform: uppercase;
 }
 
-.event-content {
-   text-align: center;
-  white-space: pre-wrap;
-  margin-top: 15px;
-    font-family: proxima-nova;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 13px;
-    letter-spacing: .25em;
-    line-height: 2em;
-    text-transform: uppercase;
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
 }
+
+div.scroll-container img {
+  padding: 10px;
+}
+
 /* Footer Style */
 footer {
   display: block;
