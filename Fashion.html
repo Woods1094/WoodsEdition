@@ -1,1 +1,604 @@
 
+<!--
+/*
+File Name: Fashion.html
+Date Created: 5/5/26
+Date Modified: 5/5/26
+Fashion & Apeals  page
+
+*/
+--->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fashion & Appeal</title>
+    <link rel="stylesheet" href="Portraits.css">
+    <link rel="icon" href="Files/favicon (1).ico" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Simulate a smartphone / tablet look -->
+    <!-- Top Navigation Menu -->
+    <div class="header">
+      <a class="active" href="index.html">
+  <img id="WoodsLogo"src="Files/WoodsLogo.png" width="auto" height="90px"alt=""></a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="Service.html">Services</a>
+    <a href="#contact">Book A Shoot</a>
+    <a href="Portraitsgallery.html">Gallery</a>
+    <a href="Fashion.html">Fashion & Appeal</a>
+  </div>
+</div>
+      <div>
+
+        <!--
+
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+    }
+    }
+
+    // Get the button:
+    let mybutton = document.getElementById("scroll2top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+    </script>
+
+    <div class="html-content">
+      <h1>Portraits</h1>
+
+      <p>Delivering a portfolio of diverse creative works across multiple generations.</p>
+      
+      <h3> Corporate  / Family  / Special Occasions / Modeling & Fashion / Senior Portraits / More </h3>
+    </div>
+
+
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+
+      <img src="Images/Headshot.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Threet.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Guardado.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Nguyen_1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Myers.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Ceasar.JPG" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/photo16.jpg" style="width:100%">
+
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('corporate')">Corporate</button>
+  <button class="btn" onclick="filterSelection('portraits')">Portraits</button>
+  <button class="btn" onclick="filterSelection('fashion')">Fashion</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+    <!--
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Headshot.jpg" alt="Mountains" style="width:100%">
+      <h4>Corporate</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Threet.jpg" alt="Lights" style="width:100%">
+      <h4>Portraits</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="Images/Nguyen_1.jpg" alt="Car" style="width:100%">
+      <h4>Fashion</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID 
+</div>
+   
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+      filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+-->
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  
+
+    <div class="html-content">
+      <h1>Portraits</h1>
+      <p>"Delivering A Portfolio Of Diverse Creative Works Across Multiple Generations"</p>
+      <img id="WoodsLogo"src="Files/Stars.png" width="auto" height="290px"alt=""></a>
+      <h3>Corporate  / Family  / Special Occasions / Modeling & Fashion / Senior Portraits / More </h3>
+    </div>
+
+
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+
+      <img src="Images/Headshot.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Threet.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Guardado.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Nguyen_1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Myers.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/Ceasar.JPG" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="Images/photo16.jpg" style="width:100%">
+
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    
+<h2>PORTFOLIO</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')">Corporate</button>
+  <button class="btn" onclick="filterSelection('cars')">Portraits</button>
+  <button class="btn" onclick="filterSelection('people')">Fashion</button>
+</div>
+
+<!-- Fashion Appeal Gallery Grid -->
+    
+
+  <div class="column people">
+    <div class="content">
+      <img src="Images/Nguyen_1.jpg" alt="People" style="width:100%">
+      <h4>Woman's SM Woods Modeling Shirt(Front)</h4>
+      <p>Turn clothing into a powerful branding tool,Transforming fashion into advertisements.</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Images/Richardson.JPG" alt="People" style="width:100%">
+      <h4>Men's LG Woods Edition Shirt(Front)</h4>
+      <p>Turn clothing into a powerful branding tool,Transforming fashion into advertisements.</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Images/DJ_7.jpg" alt="People" style="width:100%">
+      <h4>Woman's SM Woods Modeling Shirt(Back)</h4>
+      <p>Turn clothing into a powerful branding tool,Transforming fashion into advertisements.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+    
+    <script> 
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+      function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+    x.style.display = "none";
+    } else {
+    x.style.display = "block";
+    }
+    }
+
+    // Get the button:
+    let mybutton = document.getElementById("scroll2top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+    }
+
+      filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+</script>
+
+    <div class="scroll-container">
+      
+    <img src="Images/Brandphoto_1.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="Images/Brandphoto_2.jpg" alt="Forest" width="600" height="400">
+    <img src="Images/Brandphoto_3.jpg" alt="Northern Lights" width="600" height="400">
+    <img src="Images/Brandphoto_4.jpg" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto1.png" alt="Mountains" width="600" height="400">
+      
+</div>
+
+    <div class="fashion-content">
+      
+      <h1>Fashion & Appeal</h1>
+
+       <img id="WoodsLogo"src="Files/Stars.png" width="auto" height="290px"alt=""></a>
+   
+      <h3> Status  / Power  / Identity / Wealth / Emotion /  </h3>
+      
+    </div>
+
+
+
+  <div>
+    
+ <img src="Images/Gabriella_18.jpg" height="1100" width="1230">
+    
+      <h1>Choose Clothes That Matches Your Portfolio</h1>
+    
+    <p>Turning clothing into a powerful branding tool.Transforming Fashion into advertisement. Attire is offered in unisex in various sizes. </p>
+    
+      <p> 
+        
+        When you wear my attire it helps build Status and Identity.
+        My attire's vibrant colors brings out the creative story behind
+        the brand. My attire builds character wealth and also brings the 
+        fun in fashion and portrait photos. My attire is offered in several
+        sizes and is sold as male and woman's clothing. 
+      
+      </p>
+
+      <h2>Add Emotion To your Portfolio</h2>
+
+    
+        <img src="Images/Jenny_Montoya3.jpg" height="800" width="1030" >
+    
+      <p> 
+        
+        If I am wearing a shirt that dosesnt match my style two things is happening:
+        I am not happy with the outcome of my pictures. I have zero confident in having
+        a good portfolio for my content. How you feel about what you wear can impact the
+        outcome of your portfolio. 
+      
+      </p>
+
+         <h2>Clothes That Matches Portfolio Goals</h2>
+
+            <img src="Images/Fav_6.jpg" height="800" width="1030" >
+    
+  </div>
+
+
+    <div class="scroll-container">
+      
+    <img src="Images/Prom18_15-Edit.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="Images/Prom18_1-Edit.jpg" alt="Forest" width="600" height="400">
+    <img src="Images/Prom18_2-Edit.jpg" alt="Northern Lights" width="600" height="400">
+    <img src="Images/Prom18_4-Edit.jpg" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto1.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto1.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto.png" alt="Mountains" width="600" height="400">
+    <img src="Images/BrandPhoto1.png" alt="Mountains" width="600" height="400">
+      
+</div>
