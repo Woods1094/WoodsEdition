@@ -94,6 +94,10 @@ body, html {
   vertical-align: middle;
 }
 
+.site-footer  {
+  
+  text-align: center;
+}
 /* Style the buttons */
 .btn {
   border: none;
