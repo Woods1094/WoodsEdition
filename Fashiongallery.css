@@ -37,7 +37,7 @@ body, html {
 .bg-image {
   /* The image used */
   background-image: url("Images/Fashionbrand.jpg");
-}
+
   
   /* Add the blur effect */
   filter: blur(8px);
