@@ -378,6 +378,60 @@ footer a {
 
 
 
+/* Footer Style */
+footer {
+  display: block;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  font-family: proxima-nova;
+  font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    background-color: black;
+    width: 100%;
+
+}
+
+footer a {
+  text-align: center;
+  font-family: freight-sans-pro;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: .22em;
+  line-height: 2.1em;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-decoration: none;
+  color: white;
+}
+ a:hover{
+  color: gold;
+}
+
+#Footernav {
+  text-align: center;
+  font-family: freight-sans-pro;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: .22em;
+    line-height: 2.1em;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: black;
+}
+#Footernav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: gold;
+}
+
 
 
 #Footernav a:hover {
