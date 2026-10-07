@@ -2,7 +2,7 @@
 /*
 File Name: Fashion.css
 Date Created: 5/5/26
-Date Modified: 5/5/26
+Date Modified: 10/6/26
 stylesheet for Fashion & Appeal page
 
 */
@@ -255,6 +255,20 @@ h1 {
     text-transform: uppercase;
 }
 
+.Fashion-appeal {
+  
+    text-align: center;
+    white-space: pre-wrap;
+    margin-top: 15px;
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
 .Prom-content{
   
 text-align: center;
@@ -322,7 +336,7 @@ footer {
     font-size: 21px;
     letter-spacing: .02em;
     line-height: 1.4em;
-    background-color: black;
+    background-color: white;
     width: 100%;
 
 }
@@ -338,7 +352,7 @@ footer a {
   text-transform: uppercase;
   padding: 20px 0;
   text-decoration: none;
-  color: white;
+  color: black;
 }
  a:hover{
   color: gold;
@@ -354,10 +368,10 @@ footer a {
     line-height: 2.1em;
     text-transform: uppercase;
     padding: 20px 0;
-    background-color: black;
+    background-color: white;
 }
 #Footernav a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .header a:hover {
@@ -389,7 +403,7 @@ footer {
     font-size: 21px;
     letter-spacing: .02em;
     line-height: 1.4em;
-    background-color: black;
+    background-color: white;
     width: 100%;
 
 }
@@ -405,7 +419,7 @@ footer a {
   text-transform: uppercase;
   padding: 20px 0;
   text-decoration: none;
-  color: white;
+  color: black;
 }
  a:hover{
   color: gold;
@@ -421,10 +435,10 @@ footer a {
     line-height: 2.1em;
     text-transform: uppercase;
     padding: 20px 0;
-    background-color: black;
+    background-color: white;
 }
 #Footernav a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
