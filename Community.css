@@ -1,6 +1,7 @@
 /*
 File Name: Community.css
 Date: 7/27/24
+Date Modified: 10/10/26
 stylesheet for Community page
 
 */
@@ -321,7 +322,7 @@ footer {
     font-size: 21px;
     letter-spacing: .02em;
     line-height: 1.4em;
-    background-color: black;
+    background-color: white;
     width: 100%;
 
 }
@@ -337,7 +338,7 @@ footer a {
   text-transform: uppercase;
   padding: 20px 0;
   text-decoration: none;
-  color: white;
+  color: black;
 }
  a:hover{
   color: gold;
@@ -353,10 +354,10 @@ footer a {
     line-height: 2.1em;
     text-transform: uppercase;
     padding: 20px 0;
-    background-color: black;
+    background-color: white;
 }
 #Footernav a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .header a:hover {
