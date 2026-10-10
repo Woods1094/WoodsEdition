@@ -378,6 +378,21 @@ footer a {
   color: gold;
 }
 
+.contact {
+  color: black;
+  text-align: center;
+}
+.location {
+  color: black;
+  text-align: center;
+}
+
+.description {
+  color: black;
+  text-align: center;
+}
+
+
 
 .header a {
   float: left;
