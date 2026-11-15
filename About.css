@@ -16,6 +16,13 @@ img {vertical-align: middle;}
     width: 50%;
     height: 75%;
 }
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
 h3 {
 color: white;
   font-family:italic;
